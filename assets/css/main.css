@@ -115,7 +115,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		/* color: rgba(255, 255, 255, 0.55); */
+		color: white;
 		/* font-family: Arial, Helvetica, sans-serif; */
 		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 		font-size: 16.5pt;
@@ -3525,7 +3526,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #212025;
 		cursor: default;
 		height: 100vh;
 		left: 0;
