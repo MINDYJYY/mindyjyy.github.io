@@ -34,11 +34,11 @@
 							<h1 class="major">Paxos-based Key/Value Service</h1>
 							<span class="image left"><img src="info/Paxos.png" alt="" /></span>
 							<br><br><br><br><br>
-							<li>Developed a robust Paxos-based distributed key-value storage system in Go, ensuring high consistency and linearizability, and proficiently handling parallel requests.</li>
+							<li>Developed a robust Paxos-based distributed key-value storage system in Go, ensuring high consistency with mutex under frequent server re-configurations and a 20% failure rate in the network.</li>
 							<br>
-							<li>Implemented the system with a three-layer architecture, encapsulating the implementation details of each layer as abstractions, effectively reducing maintenance overhead.</li>
+							<li>Ensured the system's linearizability by adopting logical clock to maintain the sequential relationships between requests.</li>
 							<br>
-							<li>Achieved error-free performance through rigorous testing and improvements, successfully addressing the issues caused by frequent server re-configurations and a 20% failure rate in both servers and the network.</li>
+							<li>Optimized the system to support parallel communications between servers using multi-threading, resulting in a 15% reduction in response time.</li>
 							<br><br><br><br><br><br>
 						</div>
 					</section>
